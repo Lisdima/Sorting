@@ -1,0 +1,126 @@
+body {
+    background-color: #c49dd4;
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.container {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 80px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+/* My buttons */
+.my__buttons {
+    display: flex;
+    height: 55px;
+    width: 350px;
+}
+
+#button1 {
+    /* display: none; */
+    font-size: 20px;
+    font-family: 'East Sea Dokdo', cursive;
+    padding: 8px 30px;
+    background-color: #F2EA94;
+    border: 3px solid #F5C967;
+    cursor: pointer;
+    outline: none;
+}
+
+#button2 {
+    display: none;
+    
+    font-size: 20px;
+    font-family: 'East Sea Dokdo', cursive;
+    padding: 8px 18px;
+
+    background-color: #F2EA94;
+    border: 3px solid #F5C967;
+
+    cursor: pointer;
+    outline: none;
+}
+
+#button3 {
+    font-size: 22px;
+    margin-left: 9px;
+    padding: 10px 22px;
+
+    background-color: #F2EA94;
+    border: 3px solid #F5C967;
+
+    cursor: pointer;
+    outline: none;
+}
+
+#button1:hover, #button2:hover, #button3:hover {
+    opacity: 0.9;
+}
+
+/* #button1.active {
+    display: none;
+}
+
+#button2.active {
+    display: block;
+} */
+
+#button1:focus, #button2:focus, #button3:focus {
+    border: 3px solid white;
+}
+
+/* Content */
+.content {
+    margin-top: 20px;
+}
+
+.card {
+    font-size: 40px;
+    margin: 15px 0;
+
+    color: white;
+    
+    text-align: center;
+}
+
+/* Item */
+#item1 {
+    background-color: #F564C9;
+    border: 4px solid #BA96F2;
+}
+
+#item2 {
+    background-color: #B36BF2;
+    border: 4px solid #4DC5E8;
+}
+
+#item3 {
+    background-color: #6249F5;
+    border: 4px solid #9C9EDB;
+}
+
+#item4 {
+    background-color: #8BF0B2;
+    border: 4px solid #CBF2ED;
+}
+
+#item5 {
+    background-color: #D1DB83;
+    border: 4px solid #D9F2B1;
+}
+
+#item6 {
+    background-color: #F5A53B;
+    border: 4px solid #E8B897;
+}
